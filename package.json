@@ -1,6 +1,6 @@
 {
   "name": "mofron-effect-synwhei",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "sync window of height effect for mofron",
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,9 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/simpart/mofron-effect-synwhei.git"
+  },
+  "dependencies": {
+    "mofron-effect-syncwin" : ""
   },
   "keywords": [
     "front-end"
