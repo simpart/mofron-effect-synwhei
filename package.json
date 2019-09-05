@@ -1,6 +1,6 @@
 {
   "name": "mofron-effect-synwhei",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "sync window of height effect for mofron",
   "main": "index.js",
   "scripts": {
