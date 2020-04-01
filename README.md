@@ -9,9 +9,12 @@ syncronize component height to window height
 npm install mofron mofron-effect-synwhei
 ```
 
-# Parameter
+# Sample
+```html
+<require>
+    <tag load="mofron-effect-synwhei">SynwHei</tag>
+</require>
 
-|Simple<br>Param | Parameter Name | Type | Description |
-|:--------------:|:---------------|:-----|:------------|
-| ◯  | offset | string (size) | offset size |
+<div effect=SynwHei></div>
+```
 
