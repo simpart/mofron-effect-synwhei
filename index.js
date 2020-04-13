@@ -9,17 +9,17 @@ module.exports = class extends Syncwin {
     /**
      * initialize effect
      * 
-     * @param (mixed) offset parameter
+     * @param (mixed) y_offset parameter
      *                dict: effect config
      * @param (prm) offset parameter
-     * @short x_offset
+     * @short y_offset
      * @type private
      */
     constructor (prm) {
         try {
             super();
             this.name('Synwhei');
-            this.shortForm('x_offset');
+            this.shortForm('y_offset');
             this.valid(false, true);
 	    /* set config */
 	    if (undefined === prm)
