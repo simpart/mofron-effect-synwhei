@@ -8,13 +8,3 @@ syncronize component height to window height
 ```
 npm install mofron mofron-effect-synwhei
 ```
-
-# Sample
-```html
-<require>
-    <tag load="mofron-effect-synwhei">SynwHei</tag>
-</require>
-
-<div effect=SynwHei></div>
-```
-

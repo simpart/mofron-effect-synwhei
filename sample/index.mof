@@ -1,5 +1,5 @@
-<require>
+<setting>
     <tag load="mofron-effect-synwhei">SynwHei</tag>
-</require>
+</setting>
 
 <div effect=SynwHei></div>

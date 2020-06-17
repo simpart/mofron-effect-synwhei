@@ -22,7 +22,7 @@ module.exports = class extends Syncwin {
             this.shortForm('y_offset');
             this.valid(false, true);
 	    /* set config */
-	    if (undefined === prm)
+	    if (undefined === prm) {
                 this.config(prm);
             }
         } catch (e) {
