@@ -15,15 +15,15 @@ module.exports = class extends Syncwin {
      * @short y_offset
      * @type private
      */
-    constructor (prm) {
+    constructor (p1) {
         try {
             super();
             this.name('Synwhei');
             this.shortForm('y_offset');
             this.valid(false, true);
 	    /* set config */
-	    if (undefined === prm) {
-                this.config(prm);
+	    if (0 < arguments.length) {
+                this.config(p1);
             }
         } catch (e) {
             console.error(e.stack);
