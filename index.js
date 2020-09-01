@@ -18,7 +18,7 @@ module.exports = class extends Syncwin {
     constructor (p1) {
         try {
             super();
-            this.name('Synwhei');
+            this.modname('Synwhei');
             this.shortForm('y_offset');
             this.valid(false, true);
 	    /* set config */
